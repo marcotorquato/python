@@ -1,0 +1,17 @@
+print('=====CHALLENGE 03=====\n')
+
+n = input('Write something: ')
+print('')
+
+print('N its a number?',n.isalnum())
+print('N is it numeric?', n.isnumeric())
+print('N is it decimal?', n.isdecimal())
+print('N is it alphanumeric?', n.isalnum())
+print('N is it alphabetical?', n.isalpha())
+print('N is it a digit?', n.isdigit())
+print('N is it title?', n.istitle())
+print('N is it identifier?', n.isidentifier())
+print('N is it in lower case?', n.islower())
+print('N is it Caps Lock?', n.isupper())
+print('N is it printable?', n.isprintable())
+print('N is it a space?', n.isspace())
