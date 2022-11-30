@@ -5,3 +5,5 @@ num = int(input('Enter a number:'))
 su = num + 1
 pred = num - 1
 print('\nThe number chosen was: {}, its predecessor is: {} and its successor is: {}'.format(num, pred, su))
+
+
