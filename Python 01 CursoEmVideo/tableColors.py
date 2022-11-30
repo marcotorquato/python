@@ -1,35 +1,33 @@
-#!/usr/bin/env python3
-# -*- encoding: utf-8 -*-
 # ANSI color standard.
 # These are the style and color codes that work best in Python.
 # Syntax: ``\033[STYLE;FG;BGm``.
 # The text must be inserted after the letter ``m``.
 
 # Style:
-- **0**: (Name) without color.
-- **1**: (old) Bold.
-- **4**: (Underline) Underline.
-- **7**: (Negative) Inverts letter and background.
+# - **0**: (Name) without color.
+# - **1**: (old) Bold.
+# - **4**: (Underline) Underline.
+# - **7**: (Negative) Inverts letter and background.
 
-# Text color (fg):
-- **30**: White.
-- **31**: Red.
-- **32**: Green.
-- **33**: Yellow.
-- **34**: Blue.
-- **35**: Magenta.
-- **36**: Cyan (light blue).
-- **37**: Gray.
+# # Text color (fg):
+# - **30**: White.
+# - **31**: Red.
+# - **32**: Green.
+# - **33**: Yellow.
+# - **34**: Blue.
+# - **35**: Magenta.
+# - **36**: Cyan (light blue).
+# - **37**: Gray.
 
-# Background color (bg):
-- **40**: White.
-- **41**: Red.
-- **42**: Green.
-- **43**: Yellow.
-- **44**: Blue.
-- **45**: Magenta.
-- **46**: Cyan (light blue).
-- **47**: Gray.
+# # Background color (bg):
+# - **40**: White.
+# - **41**: Red.
+# - **42**: Green.
+# - **43**: Yellow.
+# - **44**: Blue.
+# - **45**: Magenta.
+# - **46**: Cyan (light blue).
+# - **47**: Gray.
 
 #     **NOTE**: To clear/limit formatting, use ``\033[m``
 
