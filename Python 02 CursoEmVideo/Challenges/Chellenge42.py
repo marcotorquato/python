@@ -1,0 +1,2 @@
+print('=====CHALLENGE 40=====')
+
