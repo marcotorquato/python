@@ -7,7 +7,7 @@ media = (note1 + note2) / 2
 
 if media >= 7 :
     print('Aproved!')
-elif media >=5 and media <=6.9:
+elif media >= 5 and media <= 6.9:
     print('Recovery!')
 else:
     print('Reproved!')
