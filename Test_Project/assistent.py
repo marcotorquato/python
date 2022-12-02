@@ -193,7 +193,7 @@ def executa_comandos(mensagem):
 		os.system('c: && cd C:/Program Files/Conceptworld/Notezilla && Notezilla.exe /BringNotesOnTop')
 
 def main():
-	cria_audio("ola.mp3", "Olá sou a Ana, sua assistente virtual! Como posso ajudar?")
+	cria_audio("ola.mp3", "Olá sou o Pombo, seu assistente virtual! Como posso ajudar?")
 	while True:
 		monitora_audio()
 
