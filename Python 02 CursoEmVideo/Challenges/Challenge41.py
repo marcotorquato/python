@@ -1,14 +1,20 @@
 print('=====CHALLENGE 40=====')
 
-age = int(input('How old are you? '))
+from datetime import date
 
-if age <= 9:
+year = date.today().year
+
+
+born = int(input('What year were you born? '))
+now = (year - born)
+
+if year <= 9:
     print ('Category Little')
-elif age <= 14:
+elif year <= 14:
     print ('Category Children')
-elif age <= 19:
+elif year <= 19:
     print ('Category Jr')
-elif age <= 20:
+elif year <= 20:
     print ('Category Senior')
 else :
     print ('Category Master')
