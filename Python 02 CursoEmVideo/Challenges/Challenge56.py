@@ -9,7 +9,7 @@ olgAge = 0
 for c in range(1, 5):
     name = input('Digite um name: ')
     age = int(input('Age: '))
-    cont += 1  # this counter will be used to count the variable to average.
+    cont += 1  # this counter will be used to count the variable to average.   kk
     sum = sum + age # sum to average the age of the group.
     sex = input('sex [M/F]: ')
     if sex in 'Mm' and age > olgAge: # check if you are a man and if your age is greater than the initial age and the others.
