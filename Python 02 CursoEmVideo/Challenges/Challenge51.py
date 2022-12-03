@@ -1,9 +1,9 @@
 print('=====CHALLENGE 51=====')
 
 
-thirt = int(input('Enter the reason for the P.A.: '))
-sec = int(input('Enter the reason for the P.A.: '))
-ene = thirt + (10 - 1) * sec
+start = int(input('Enter the reason for the P.A.: '))
+step = int(input('Enter the reason for the P.A.: '))
+end = start + (10 - 1) * step
 
-for c in range(thirt, ene + 1, sec):
-    print('=> {}'.format(c))
+for c in range(start, end + 1, step):
+    print('-> {}'.format(c))
