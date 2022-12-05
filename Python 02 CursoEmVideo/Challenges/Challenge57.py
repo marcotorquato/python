@@ -1,6 +1,8 @@
 print('=====CHALLENGE 57=====')
 
-sex = int(input('Write a sex: '))
-while sex != 'Mm' or 'Ff':
-    print('Invalid')
-print('nice')
+
+sex = input('Write a SEX [M/F]: ').strip().upper()
+
+while sex not in 'MF':
+    sex = input('Type again, just [M/F]:').strip().upper()
+print('Nice')
