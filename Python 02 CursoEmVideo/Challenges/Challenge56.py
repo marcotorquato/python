@@ -16,9 +16,9 @@ for p in range(1, 5):
         oldNameman = age
         oldName = name
     if sex in 'Mm' and age > largerAgeMan:
-        largerAgeMan = age
+        largerAgeMan = age  
         oldName = name
-    if sec in 'Ff' and age < 20:
+    if sex in 'Ff' and age < 20:
         underWoman20 += 1
 media = sumAge / 4
 
