@@ -1,9 +1,13 @@
 print('=====CHALLENGE 53=====')
 
-name = input('Digite uma frase: ').strip().lower()
-name = name.replace(' ', '')
-inverseName = name[::-1].lower()
-if name == inverseName:
-   print('{} e {} é palíndromo!'.format(name, inverseName))
+name = input('Write a phrase: ').strip().lower()
+words= name.split()
+together = ''.join(words)
+inverseName = ''
+
+for letter in range (len(together) -1, -1, -1):
+   inverseName += together[letter]
+if inverseName == together:
+   print(' Palindromo TRUE ')
 else:
-   print('{} e {} Não é palíndromo!'.format(name,inverseName))
+   print('Palidromo OFF')

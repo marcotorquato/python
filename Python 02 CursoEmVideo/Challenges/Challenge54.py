@@ -13,5 +13,5 @@ for c in range(0, 7):
         smaller += 1
     elif today - date >= 21:
         larger += 1
-print('{} São (é) smaller de idade.'.format(smaller))
-print('{} São (é) larger de idade.'.format(larger))
+print('{} is smaller.'.format(smaller))
+print('{} are larger.'.format(larger))
