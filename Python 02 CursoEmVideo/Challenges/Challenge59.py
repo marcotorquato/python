@@ -3,15 +3,16 @@ from time import sleep
 
 a = int(input('Write a number: '))
 b = int(input('Write a number: '))
-option = int(input('''[1] Sum
+option = 0
+
+while option != 5:
+    option = int(input('''    [1] Sum
     [2] Multiply
     [3] Bigger
     [4] Insert new numbers
     [5] Exit the program.
     What is your option?\n'''
     ''))
-
-while option.upper != 5 and option in 'SN':
     if option == 1 :
         print(f'The sum of {a} + {b} is: {a+b}')
     elif option == 2:
