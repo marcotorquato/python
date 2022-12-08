@@ -28,4 +28,4 @@ print('{:-^60}'.format('End of the program'))
 
 print(f'total spent: {total}')
 print(f'Products that cost more than $1000: {over1k} ')
-print(f'The product is cheaper: {cheap} with a price of {under}')
+print(f'The product is cheaper: {cheap} with a price of ${under}')
