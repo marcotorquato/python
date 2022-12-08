@@ -1,1 +1,0 @@
-print('=====CHALLENGE 72=====')
