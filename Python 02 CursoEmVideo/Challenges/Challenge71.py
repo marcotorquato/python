@@ -2,7 +2,7 @@ print('=====CHALLENGE 71=====')
 
 withdraw = int(input('Enter the withdrawal amount: '))
 total = withdraw #Total amount to be decomposed
-bankNotes= 100 #Take 100 reais from the amount
+bankNotes= 100 #Take 100 dollars from the amount
 totalNotes = 0
 while True:
     if total >= bankNotes:
