@@ -15,7 +15,7 @@ for i in data:
 
         i = i[1]
 
-        i= = [1:1]
+        i = i[1:-1]
 
         profiles.append(i)
 
@@ -30,13 +30,13 @@ for i in profiles:
         results = results.decode('utf-8', errors = "backslashreplace")
         results = results.split('\n')
 
-        results = [b.split(":") for b in results if  "key Content" in b] 
+        results = [b.split(":")[1:-1] for b in results if  "key Content" in b] 
 
         try:
-            print("{:<30} | {:<}".format(i, results[0]))
+            print("{:<30}| {:<}".format(i, results[0]))
 
-            except indexError:
-                print("{:<30} | {:<}".format(i, ""))
+        except indexError:
+            print("{:<30} | {:<}".format(i, ""))
     
     except subprocess.CalledProcessError:
         print("Ecoding Error Occured")
