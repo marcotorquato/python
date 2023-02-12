@@ -10,9 +10,9 @@ pyautogui.write('Marco',duration=2)
 
 with open('produtos.txt', 'r') as file:
     for line in file:
-        line.split(,)[0]
+        line.split(',')[0]
         product = line.split(',')[1]
-        unit = line..split(',')[2]
+        unit = line.split(',')[2]
         price = line.split(',')[3]
 
         #click and edit product
