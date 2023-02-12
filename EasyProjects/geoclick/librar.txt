@@ -4,3 +4,13 @@ pip install pyautogui pillow mouseinfo
 or mac
 
 pip3 install pyautogui pillow mouseinfo
+
+
+// open geoclick 
+
+python or python3 (mac/linux)
+
+from mouseinfo import mouseInfo
+mouseIinfo()
+
+opened geoclick! f6 salve geomouse
