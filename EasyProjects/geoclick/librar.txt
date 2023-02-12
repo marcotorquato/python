@@ -1,0 +1,6 @@
+
+pip install pyautogui pillow mouseinfo
+
+or mac
+
+pip3 install pyautogui pillow mouseinfo
